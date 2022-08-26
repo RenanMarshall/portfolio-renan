@@ -1,0 +1,216 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    background-color: white;
+}
+
+.hero {
+    background-color: #47236B;
+    height: 100vh;
+    color: white;
+    font-size: 40px;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    height: 400px;
+    background-color: black;
+    text-align: center;
+    padding-top: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+li {
+    /* width: 250px; */
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+    color: white;
+}
+
+p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+/* .button {
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: coral;
+    text-align: center;
+} */
+
+/*  Styles Botao */
+.btn-primary {
+    font-family: 'Poppins', sans-serif;
+    width: 200px;
+    height: 55px;
+    border-radius: 30px;
+    background: chocolate;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    transition: all 0.3s ease 0s;
+    color: white;
+    margin-top: 20px;
+}
+
+.btn-primary:hover {
+    background-color: #ef744b;
+}
+
+.btn-primary:active {
+    background-color: #A9A9A9;
+    color: #808080;
+}
+
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.logo {
+    height: 150px;
+}
+
+.social {
+    margin: 20px;
+}
+
+/*  Styles Sessoes */
+.sub-section {
+    display: flex;
+    padding: 80px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px;
+}
+
+sub-section-formation {
+    display: flex;
+    padding: 80px;
+}
+
+.sub-section-formation {
+    text-align: center;
+    height: 400px;
+}
+
+
+.skills {
+    text-align: center;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+/*  Styles Projects */
+.project-card {
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.message {
+    padding-top: 10px;
+}
+
+.hamburguer {
+    display: none;
+}
+
+.hamburguer:focus {
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburguer {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 20px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        background-color: #53297e;
+        margin: 0px;
+    }
+
+    ul.show {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #53297e;
+    }
+
+    .logo {
+        display: none;
+    }
+}
+    
